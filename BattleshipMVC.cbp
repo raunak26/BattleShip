@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BattleshipMVC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\MVC\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/hitesh/Desktop/Homework/ECS\ 36B/BattleShip/MVC/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/hitesh/Desktop/Homework/ECS\ 36B/BattleShip/MVC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/hitesh/Desktop/Homework/ECS\ 36B/BattleShip/MVC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/hitesh/Desktop/Homework/ECS\ 36B/BattleShip/MVC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BattleshipMVC">
+				<Option output="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/libBattleshipMVC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEFAULT_CONFIGURATION_LOCATION=&quot;/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/GameConfigurations/DefaultConfiguration.txt&quot;"/>
+					<Add directory="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/hitesh/Desktop/Homework/ECS\ 36B/BattleShip/MVC/Makefile&quot;  VERBOSE=1 BattleshipMVC"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/hitesh/Desktop/Homework/ECS\ 36B/BattleShip/MVC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/hitesh/Desktop/Homework/ECS\ 36B/BattleShip/MVC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/hitesh/Desktop/Homework/ECS\ 36B/BattleShip/MVC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BattleshipMVC/fast">
+				<Option output="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/libBattleshipMVC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEFAULT_CONFIGURATION_LOCATION=&quot;/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/GameConfigurations/DefaultConfiguration.txt&quot;"/>
+					<Add directory="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/hitesh/Desktop/Homework/ECS\ 36B/BattleShip/MVC/Makefile&quot;  VERBOSE=1 BattleshipMVC/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/hitesh/Desktop/Homework/ECS\ 36B/BattleShip/MVC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/hitesh/Desktop/Homework/ECS\ 36B/BattleShip/MVC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/hitesh/Desktop/Homework/ECS\ 36B/BattleShip/MVC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/AiPlayer.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/AiPlayer.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/Attack.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/Attack.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/AttackResult.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/AttackResult.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/Board.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/Board.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/Cell.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/Cell.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/CheatingAI.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/CheatingAI.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/Controller.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/Controller.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/EndGame.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/EndGame.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/GameAttributes.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/GameAttributes.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/HumanPlayer.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/HumanPlayer.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/HuntDestroyAI.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/HuntDestroyAI.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/Model.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/Model.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/Move.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/Move.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/Player.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/Player.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/PlayerConfiguration.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/PlayerConfiguration.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/RandomAI.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/RandomAI.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/ShipPlacement.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/ShipPlacement.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/StandardView.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/StandardView.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/Utility.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/Utility.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/View.cpp">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/View.h">
+			<Option target="BattleshipMVC"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/hitesh/Desktop/Homework/ECS 36B/BattleShip/MVC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MVC\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
